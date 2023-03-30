@@ -37,7 +37,7 @@ function AsianF()
   {
   case 0:
     L=pic.src="Images/2D Art/Fanarts/HxH/Gon HXH Ink.png";
-  //pic.src="images/Asian/Asian Top line - Copy.png";
+  //pic.src="Images/Asian/Asian Top line - Copy.png";
   console.log("Hi")  
   console.log(x++);
   console.log(x);
@@ -53,7 +53,7 @@ function AsianF()
    console.log(x + 'is now x');
   break;
   default:
-    pic.getAttribute('src')==="images/Asian/Asian 3_4.png"
+    pic.getAttribute('src')==="Images/Asian/Asian 3_4.png"
     console.log('nope');
     break;
   }
@@ -64,7 +64,7 @@ function AsianF()
 //Function for Asian Py. right button.
 function AsianFR(){
  var pic= document.getElementById('Asian');
-  if(pic.getAttribute('src')== "images/Asian/Asian 3_4.png" )
+  if(pic.getAttribute('src')== "Images/Asian/Asian 3_4.png" )
   {
     pic.src='Images/Asian/Asian Top  - Copy.png';
   }
@@ -75,7 +75,7 @@ function AsianFR(){
   }
   else{
 
-      pic.src="images/Asian/Asian 3_4.png";
+      pic.src="Images/Asian/Asian 3_4.png";
     }
   
 }
@@ -83,7 +83,7 @@ function AsianFR(){
 function AsianFL(){
 var pic=document.getElementById('Asian');
 
-if(pic.getAttribute('src')=="images/Asian/Asian 3_4.png"){
+if(pic.getAttribute('src')=="Images/Asian/Asian 3_4.png"){
   pic.src="Images/Asian/Asian Frontpng.png";
 
 }
@@ -91,7 +91,7 @@ else if(pic.getAttribute('src')=="Images/Asian/Asian Frontpng.png")
 {
 pic.src='Images/Asian/Asian Top  - Copy.png';
 }
-else{ pic.src="images/Asian/Asian 3_4.png"; }
+else{ pic.src="Images/Asian/Asian 3_4.png"; }
 }
 //Function for Larve right button.
 function buttonLR(){
@@ -154,27 +154,27 @@ function ButtonReR(){
     pic.src="Images/Remote/Remote Front 3_4.jpg";
   }
   else if(pic.getAttribute('src')=="Images/Remote/Remote Front 3_4.jpg"){
-    pic.src="images/Remote/Remote Back.jpg";
+    pic.src="Images/Remote/Remote Back.jpg";
  
   }
- else if(pic.getAttribute('src')=="images/Remote/Remote Back.jpg"){
-  pic.src="images/Remote/Remote Back 3_4.jpg";
+ else if(pic.getAttribute('src')=="Images/Remote/Remote Back.jpg"){
+  pic.src="Images/Remote/Remote Back 3_4.jpg";
  }
-  else{pic.src="images/Remote/Remote Front.jpg";}
+  else{pic.src="Images/Remote/Remote Front.jpg";}
 }
 function ButtonReL(){
   var pic=document.getElementById('Remote');
-  if(pic.getAttribute('src')=="images/Remote/Remote Front.jpg"){
-    pic.src="images/Remote/Remote Back 3_4.jpg";
+  if(pic.getAttribute('src')=="Images/Remote/Remote Front.jpg"){
+    pic.src="Images/Remote/Remote Back 3_4.jpg";
     
   }
-  else if(pic.getAttribute('src')=="images/Remote/Remote Back 3_4.jpg"){
-    pic.src="images/Remote/Remote Back.jpg";
+  else if(pic.getAttribute('src')=="Images/Remote/Remote Back 3_4.jpg"){
+    pic.src="Images/Remote/Remote Back.jpg";
   }
  else if(pic.getAttribute('src')=="images/Remote/Remote Back.jpg"){
   pic.src="Images/Remote/Remote Front 3_4.jpg";
  }
-  else{pic.src="images/Remote/Remote Front.jpg";}
+  else{pic.src="Images/Remote/Remote Front.jpg";}
 }
 
 function ButtonRoR(){
