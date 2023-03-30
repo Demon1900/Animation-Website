@@ -1,0 +1,111 @@
+
+.image-center{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.mom{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+h1{text-align: center;}
+
+body{ 
+    background-color:#2F78A1;
+}
+
+.myborder
+{
+background-color: gold;
+
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 70px;
+padding-top:auto;
+padding-bottom: 57px;
+box-sizing: border-box;
+      
+} 
+.Icon{
+    position:fixed;
+    top:0px;
+    float: right;
+}
+.Icon:hover{
+ Background-color:rgb(152, 91, 14)
+}
+
+<!--.nav{
+    position:sticky;
+    box-sizing: border-box;
+    top: 0px;
+    width: 330px;
+    padding-bottom: 24px;
+   border: 1px solid;
+    border-color:blueviolet;
+    margin: 0px 540px;
+    Background-color: #e8b022;
+    flex-flow: row;
+    text-align: center;
+    z-index: 2;
+   
+}
+.nav a{
+margin: 3px;
+text-align: center;
+flex-flow: row;
+z-index: 1;
+}
+.nav a:hover{
+    color:#4c79a9
+}
+
+.subNav{
+   margin-left: 3px;
+    float:left;
+    overflow: hidden;
+}
+.subCon{
+display:none;
+background-color: #7122e8;
+color:white ;
+}
+.subNav:hover .subCon {
+ display:grid;
+}
+#ACP{
+    margin-bottom: 19px;
+}
+.Contain{
+position:relative;
+}
+.LArrow {
+    z-index: 1;
+    position: relative;
+    bottom:10px;
+    
+}
+.RArrow {
+    z-index: 1;
+    position: relative;
+    bottom:10px;
+    
+}
+.LArrow:hover{
+   background-color: #4c79a9;
+}
+.RArrow:hover{
+    background-color: #4c79a9;
+ }
+.Contain .LArrow{
+    left:5px;
+    bottom:100px
+}
+.Contain .RArrow{
+    Right:5px;
+    bottom:100px
+}
