@@ -171,7 +171,7 @@ function ButtonReL(){
   else if(pic.getAttribute('src')=="Images/Remote/Remote Back 3_4.jpg"){
     pic.src="Images/Remote/Remote Back.jpg";
   }
- else if(pic.getAttribute('src')=="images/Remote/Remote Back.jpg"){
+ else if(pic.getAttribute('src')=="Images/Remote/Remote Back.jpg"){
   pic.src="Images/Remote/Remote Front 3_4.jpg";
  }
   else{pic.src="Images/Remote/Remote Front.jpg";}
