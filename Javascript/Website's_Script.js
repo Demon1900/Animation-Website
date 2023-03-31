@@ -150,7 +150,7 @@ function ButtonWL(){
 
 function ButtonReR(){
   var pic=document.getElementById('Remote');
-  if(pic.getAttribute('src')=="images/Remote/Remote Front.jpg"){
+  if(pic.getAttribute('src')=="Images/Remote/Remote Front.jpg"){
     pic.src="Images/Remote/Remote Front 3_4.jpg";
   }
   else if(pic.getAttribute('src')=="Images/Remote/Remote Front 3_4.jpg"){
